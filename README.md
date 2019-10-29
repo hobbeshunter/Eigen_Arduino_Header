@@ -1,6 +1,8 @@
 # Eigen
-A port of the Eigen linear algebra library for Arduino
+This is a header file to make Eigen work with Arduino projects.
 
-This is a port of Eigen 3.3.5. This library is known to work with Teensy 3.x, Teensy LC, and STM32L4 Ladybug devices.
+Please see [Eigen's website](https://eigen.tuxfamily.org/dox/index.html) for documentation.
 
-To install, simply clone or download this library into your Arduino/libraries folder. Please see [Eigen's website](https://eigen.tuxfamily.org/dox/index.html) for documentation.
+## Clone
+
+Since this repository uses git submodules you have to clone it using `git clone --recurse-submodules <url>`. Or just add it to your Arduino project libraries foldes as a git submodule. Don't forget to run `git submodule update --init --recursive` aftwerwards.
